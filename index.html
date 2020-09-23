@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>STOPWATCH</title>
+    <!-- default favicon -->
+    <link rel="shortcut icon" href="https://i.dlpng.com/static/png/477349_preview.png" type="image/x-icon">
+    <!-- wideley used favicon -->
+    <link rel="icon" href="https://i.dlpng.com/static/png/477349_preview.png" sizes="32x32" type="image/png">
+    <!-- for apple mobile devices -->
+    <link rel="apple-touch-icon-precomposed" href="https://i.dlpng.com/static/png/477349_preview.png" type="image/png"
+        sizes="152x152">
+    <link rel="apple-touch-icon-precomposed" href="https://i.dlpng.com/static/png/477349_preview.png" type="image/png"
+        sizes="120x120">
+    <!-- google tv favicon -->
+    <link rel="icon" href="https://i.dlpng.com/static/png/477349_preview.png" sizes="96x96" type="image/png">
+</head>
+
+<body>
+    <div class="container">
+        <h1>STOPWATCH</h1>
+        <div class="clock">
+            <div id="timerminute">
+                <h1>00</h1>
+            </div>
+            <div>
+                <h1>:</h1>
+            </div>
+            <div id="timersecond">
+                <h1>00</h1>
+            </div>
+            <div>
+                <h1>:</h1>
+            </div>
+            <div id="timermilisecond">
+                <h1>00</h1>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="startbtn" onclick="startthetimer()">START</button>
+            <button id="stopbtn" onclick="stopit()">STOP</button>
+            <button id="resetbtn" onclick="reset()">RESET</button>
+        </div>
+        <h2>-ARJUN PORWAL</h2>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
